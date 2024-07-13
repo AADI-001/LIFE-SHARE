@@ -39,7 +39,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello  {first} 🖤"
  "Welcome To [TIF] Links Bot __________________________________________________________________"
-"📌Join our other Channels @TIF_TvSeries1 🌹 @TIF_WebSeries  @TIF_Moviez 🌹 @TIF_Anime _________________________________________________________>
+"📌Join our other Channels @TIF_TvSeries1 🌹 @TIF_WebSeries  @TIF_Moviez 🌹 @TIF_Anime _________________________________________________________"
   
 "📌Our Discussion Group @TIFDiscuss 🌹 @TIF_OTs 🌹 @TIFRequests  "
 "__________________________________________________________________"
@@ -48,7 +48,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello  {first} 🖤"
 "📌 Follow us on Instagram  https://instagram.com/tif_network?igshid=YmMyMTA2M2Y= __________________________________________________________________")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "1014734769 989451380 878419316 692926828 1066681358 1626129666 359751388 1428191214 858310812 1059440698 1842073219 1362429856 2092914085 1264027502 1988210787 838912777 1170258624 724516516 1545262687 1141611406 772094614 1365187878 992923461 846915783 1399513864 994884531").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
